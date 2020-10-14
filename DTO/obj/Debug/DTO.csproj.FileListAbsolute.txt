@@ -5,3 +5,10 @@ C:\Users\thien\source\repos\SKH_Learning\DTO\obj\Debug\DTO.csprojAssemblyReferen
 C:\Users\thien\source\repos\SKH_Learning\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 C:\Users\thien\source\repos\SKH_Learning\DTO\obj\Debug\DTO.exe
 C:\Users\thien\source\repos\SKH_Learning\DTO\obj\Debug\DTO.pdb
+F:\Study\NAM_3\HK3\WNC\AAW0212019.1 - Nhóm 4 - Nộp báo cáo bài tập lớn kết thúc môn\SKH_Learning\DTO\bin\Debug\DTO.exe.config
+F:\Study\NAM_3\HK3\WNC\AAW0212019.1 - Nhóm 4 - Nộp báo cáo bài tập lớn kết thúc môn\SKH_Learning\DTO\bin\Debug\DTO.exe
+F:\Study\NAM_3\HK3\WNC\AAW0212019.1 - Nhóm 4 - Nộp báo cáo bài tập lớn kết thúc môn\SKH_Learning\DTO\bin\Debug\DTO.pdb
+F:\Study\NAM_3\HK3\WNC\AAW0212019.1 - Nhóm 4 - Nộp báo cáo bài tập lớn kết thúc môn\SKH_Learning\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+F:\Study\NAM_3\HK3\WNC\AAW0212019.1 - Nhóm 4 - Nộp báo cáo bài tập lớn kết thúc môn\SKH_Learning\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+F:\Study\NAM_3\HK3\WNC\AAW0212019.1 - Nhóm 4 - Nộp báo cáo bài tập lớn kết thúc môn\SKH_Learning\DTO\obj\Debug\DTO.exe
+F:\Study\NAM_3\HK3\WNC\AAW0212019.1 - Nhóm 4 - Nộp báo cáo bài tập lớn kết thúc môn\SKH_Learning\DTO\obj\Debug\DTO.pdb

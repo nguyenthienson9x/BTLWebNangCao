@@ -145,6 +145,10 @@
         position: relative;
     }
 
+    #divLoiChao a {
+        text-decoration: none;
+    }
+
     .supMenu li a {
         color: white;
         text-decoration: none;
@@ -238,7 +242,8 @@
         justify-content: center;
     }
 
-    #divLoiChao {
+    #divLoiChao a {
+        text-decoration: none;
     }
 
     .header input[type=text] {

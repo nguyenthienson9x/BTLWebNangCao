@@ -9,3 +9,14 @@ C:\Users\thien\source\repos\SKH_Learning\DAO\obj\Debug\DAO.csproj.CoreCompileInp
 C:\Users\thien\source\repos\SKH_Learning\DAO\obj\Debug\DAO.csproj.CopyComplete
 C:\Users\thien\source\repos\SKH_Learning\DAO\obj\Debug\DAO.exe
 C:\Users\thien\source\repos\SKH_Learning\DAO\obj\Debug\DAO.pdb
+F:\Study\NAM_3\HK3\WNC\AAW0212019.1 - Nhóm 4 - Nộp báo cáo bài tập lớn kết thúc môn\SKH_Learning\DAO\bin\Debug\DAO.exe.config
+F:\Study\NAM_3\HK3\WNC\AAW0212019.1 - Nhóm 4 - Nộp báo cáo bài tập lớn kết thúc môn\SKH_Learning\DAO\bin\Debug\DAO.exe
+F:\Study\NAM_3\HK3\WNC\AAW0212019.1 - Nhóm 4 - Nộp báo cáo bài tập lớn kết thúc môn\SKH_Learning\DAO\bin\Debug\DAO.pdb
+F:\Study\NAM_3\HK3\WNC\AAW0212019.1 - Nhóm 4 - Nộp báo cáo bài tập lớn kết thúc môn\SKH_Learning\DAO\bin\Debug\DTO.exe
+F:\Study\NAM_3\HK3\WNC\AAW0212019.1 - Nhóm 4 - Nộp báo cáo bài tập lớn kết thúc môn\SKH_Learning\DAO\bin\Debug\DTO.pdb
+F:\Study\NAM_3\HK3\WNC\AAW0212019.1 - Nhóm 4 - Nộp báo cáo bài tập lớn kết thúc môn\SKH_Learning\DAO\bin\Debug\DTO.exe.config
+F:\Study\NAM_3\HK3\WNC\AAW0212019.1 - Nhóm 4 - Nộp báo cáo bài tập lớn kết thúc môn\SKH_Learning\DAO\obj\Debug\DAO.csprojAssemblyReference.cache
+F:\Study\NAM_3\HK3\WNC\AAW0212019.1 - Nhóm 4 - Nộp báo cáo bài tập lớn kết thúc môn\SKH_Learning\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+F:\Study\NAM_3\HK3\WNC\AAW0212019.1 - Nhóm 4 - Nộp báo cáo bài tập lớn kết thúc môn\SKH_Learning\DAO\obj\Debug\DAO.csproj.CopyComplete
+F:\Study\NAM_3\HK3\WNC\AAW0212019.1 - Nhóm 4 - Nộp báo cáo bài tập lớn kết thúc môn\SKH_Learning\DAO\obj\Debug\DAO.exe
+F:\Study\NAM_3\HK3\WNC\AAW0212019.1 - Nhóm 4 - Nộp báo cáo bài tập lớn kết thúc môn\SKH_Learning\DAO\obj\Debug\DAO.pdb
