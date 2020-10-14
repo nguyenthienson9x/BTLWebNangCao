@@ -24,4 +24,10 @@
             </td>
         </tr>
     </table>
+     <script>
+            window.onload = function () {
+            document.getElementById("<%=txtbEmail.ClientID%>").value = "admin@gmail.com";
+            document.getElementById("<%=txtbPassword.ClientID%>").value = "12345678";
+        }
+    </script>
 </asp:Content>

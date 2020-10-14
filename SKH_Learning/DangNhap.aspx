@@ -47,4 +47,12 @@
             return true;
         }
     </script>--%>
+<%--    ntson add load sẵn tk và mk cho tiện
+    14/10/2020--%>
+    <script>
+        window.onload = function () {
+            document.getElementById("<%=txtbEmail.ClientID%>").value = "baosinh@gmail.com";
+            document.getElementById("<%=txtbPassword.ClientID%>").value = "12345678";
+        }
+    </script>
 </asp:Content>
