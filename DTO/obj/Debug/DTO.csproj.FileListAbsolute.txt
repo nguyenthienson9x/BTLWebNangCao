@@ -1,0 +1,7 @@
+C:\Users\thien\source\repos\SKH_Learning\DTO\bin\Debug\DTO.exe.config
+C:\Users\thien\source\repos\SKH_Learning\DTO\bin\Debug\DTO.exe
+C:\Users\thien\source\repos\SKH_Learning\DTO\bin\Debug\DTO.pdb
+C:\Users\thien\source\repos\SKH_Learning\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\Users\thien\source\repos\SKH_Learning\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\thien\source\repos\SKH_Learning\DTO\obj\Debug\DTO.exe
+C:\Users\thien\source\repos\SKH_Learning\DTO\obj\Debug\DTO.pdb

@@ -1,0 +1,334 @@
+﻿
+@media screen and (min-width: 768px) {
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+        background-color: #F5F6F7;
+    }
+
+    #content-ctn {
+        position: relative;
+        left: 215px;
+        top: 68px;
+        width: calc(100% - 215px);
+        box-sizing: border-box;
+        /* position: relative;
+        left: 215px;
+        top: 68px;
+        width: calc(100% - 215px);
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;*/
+    }
+
+    #content {
+    }
+
+    .header {
+        height: 65px;
+        background-color: #343A40;
+        width: 100%;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        z-index: 1;
+        top: 0;
+    }
+
+    .header-ctn {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+        width: inherit;
+        padding: 0 50px;
+        box-sizing: border-box;
+    }
+
+
+
+        .header-ctn > div:nth-child(2) {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .header-ctn div:nth-child(2) div {
+            display: flex;
+            align-items: center;
+        }
+
+    .header input[type=text] {
+        height: 30px;
+        padding: 0 8px;
+        box-sizing: border-box;
+    }
+
+    .btnSearch {
+        width: 30px;
+        height: 30px;
+    }
+
+    .h1 {
+        color: white;
+        text-align: left;
+        font-size: 15pt;
+    }
+
+    .lblLoiChao {
+        color: white;
+        margin: 0 20px;
+    }
+
+    .sideMenu {
+        height: 100%;
+        top: 65px;
+        position: fixed;
+        width: 210px;
+        background-color: #343A40;
+        z-index: 20;
+    }
+
+    #bg_btnChucNang {
+        background-color: #2D3238;
+        padding: 10px;
+        display: block;
+        box-sizing: border-box;
+        margin-top: 20px;
+    }
+
+    .btnChucNang {
+        border: 0px;
+        display: block;
+        width: 70%;
+        /*height: 35px;*/
+        margin: 15px auto;
+        line-height: 35px;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+
+    .btnDangNhap {
+        border: 1px solid dotted;
+        background-color: #ef5350;
+        text-align: center;
+        color: white;
+    }
+
+    .btnDangKy {
+        border: 1px solid dotted;
+        background-color: #07B455;
+        text-align: center;
+        color: white;
+    }
+
+    #lsCategory {
+        margin-top: 2em;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .supMenu > li {
+        height: 50px;
+        line-height: 50px;
+        font-weight: bold;
+        padding-left: 60px;
+        position: relative;
+    }
+
+    .supMenu li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .supMenu > li:hover {
+        background-color: #2D3238;
+    }
+
+        .supMenu > li:hover .subMenu {
+            display: block;
+        }
+
+    .supMenu .subMenu {
+        display: none;
+        position: absolute;
+        left: 210px;
+        top: 0;
+        width: 200px;
+        border: 1px solid #DEE2E6;
+    }
+
+    .subMenu {
+        background-color: white;
+    }
+
+        .subMenu li {
+            padding-left: 20px;
+            height: 50px;
+            padding-left: 2em;
+            line-height: 50px;
+            color: black;
+            background-color: white;
+            text-decoration: none;
+        }
+
+            .subMenu li:hover {
+                background-color: #F8F9FA;
+            }
+
+                .subMenu li:hover a {
+                    color: #0B72C6;
+                }
+
+            .subMenu li a {
+                color: black;
+                text-decoration: none;
+            }
+}
+
+
+/*#content {
+    position: absolute;
+    width: 80%;
+    left: 230px;
+    top: 100px;    
+}*/
+
+
+
+@media screen and (max-width: 768px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow-x: hidden;
+    }
+
+    .header {
+        background-color: #343A40;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+        .header > a {
+            display: block;
+            margin: 0 auto;
+            width: 220px;
+        }
+
+    .header-ctn > div:nth-child(2) {
+        overflow: hidden;
+        min-width: 450px;
+    }
+
+    .header-ctn div:nth-child(2) div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #divLoiChao {
+    }
+
+    .header input[type=text] {
+        height: 30px;
+        padding: 0 8px;
+        box-sizing: border-box;
+        width: calc(100% - 150px);
+    }
+
+    .h1 {
+        display: none;
+    }
+
+    .lblLoiChao {
+        color: white;
+        padding-right: 10px;
+        line-height: 40px;
+    }
+
+    .btnSearch {
+        width: 30px;
+        height: 30px;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+        background-color: #F5F6F7;
+        min-width: 412px;
+    }
+
+    #content {
+    }
+
+    .sideMenu {
+        background-color: #343A40;
+    }
+
+
+    #bg_btnChucNang {
+        background-color: #2D3238;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+
+    .btnChucNang {
+        display: inline-block;
+        width: 25%;
+        height: 35px;
+        margin: 0 10px;
+        line-height: 35px;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+
+    #btnDangNhap {
+        border: 1px solid dotted;
+        background-color: #ef5350;
+        text-align: center;
+        color: white;
+    }
+
+    #btnDangKy {
+        border: 1px solid dotted;
+        background-color: #07B455;
+        text-align: center;
+        color: white;
+    }
+
+    .sideMenu ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .supMenu li {
+        line-height: 50px;
+        font-weight: bold;
+        position: relative;
+        display: inline-block;
+    }
+
+    .supMenu a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .supMenu .subMenu {
+        display: none;
+    }
+}

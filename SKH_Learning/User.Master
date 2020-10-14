@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="User.master.cs" Inherits="SKH_Learning.User" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <%--<link href="Data/Style/HocVien/ItemKhoaHoc.css" rel="stylesheet" />--%>
+    <link href="Data/Style/HocVien/MasterPage.css" rel="stylesheet" />
+    <link href="Data/Style/HocVien/index.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <style>
+    </style>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header class="header">
+                <a href="index.aspx">
+                    <img src="Data/img/logo.PNG" height="60px" style="line-height: 70px" />
+                </a>
+                <div class="header-ctn">
+                    <div>
+                        <asp:Label ID="lblh1" runat="server" Text="" CssClass="h1"></asp:Label>
+                    </div>
+                    <div>
+                        <div>
+                            <input type="text" id="txtbTimKiem" runat="server" />
+                            <asp:ImageButton ID="btnTimKiem" runat="server" ImageUrl="~/Data/img/searchLogo.png" CssClass="btnSearch" OnClick="btnTimKiem_Click" />
+                        </div>
+                        <div id="divLoiChao">
+                            <a href="TTCN.aspx"><asp:Label ID="lblLoiChao" runat="server" Text="Label" CssClass="lblLoiChao"></asp:Label></a>
+                            <asp:Button ID="btnDangXuat" runat="server" Text="Đăng Xuất" OnClick="btnDangXuat_Click" CausesValidation="false" />
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="sideMenu">
+                <div id="bg_btnChucNang" runat="server">
+                    <a href="DangNhap.aspx" class="btnChucNang btnDangNhap" id="btnDangNhap">ĐĂNG NHẬP</a>
+                    <a href="DangKy.aspx" class="btnChucNang btnDangKy" id="btnDangKy">ĐĂNG KÝ</a>
+                </div>
+                <div id="lsCategory" runat="server">
+                </div>
+            </div>
+            <div id="content-ctn">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    <asp:Button ID="Button1" runat="server" Text="Button" />
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

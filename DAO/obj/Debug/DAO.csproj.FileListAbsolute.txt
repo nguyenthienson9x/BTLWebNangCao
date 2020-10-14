@@ -1,0 +1,11 @@
+C:\Users\thien\source\repos\SKH_Learning\DAO\bin\Debug\DAO.exe.config
+C:\Users\thien\source\repos\SKH_Learning\DAO\bin\Debug\DAO.exe
+C:\Users\thien\source\repos\SKH_Learning\DAO\bin\Debug\DAO.pdb
+C:\Users\thien\source\repos\SKH_Learning\DAO\bin\Debug\DTO.exe
+C:\Users\thien\source\repos\SKH_Learning\DAO\bin\Debug\DTO.pdb
+C:\Users\thien\source\repos\SKH_Learning\DAO\bin\Debug\DTO.exe.config
+C:\Users\thien\source\repos\SKH_Learning\DAO\obj\Debug\DAO.csprojAssemblyReference.cache
+C:\Users\thien\source\repos\SKH_Learning\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\thien\source\repos\SKH_Learning\DAO\obj\Debug\DAO.csproj.CopyComplete
+C:\Users\thien\source\repos\SKH_Learning\DAO\obj\Debug\DAO.exe
+C:\Users\thien\source\repos\SKH_Learning\DAO\obj\Debug\DAO.pdb

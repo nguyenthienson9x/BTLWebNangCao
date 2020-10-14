@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="SKH_Learning.Admin.MasterPage.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="../Style/MasterPage.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header class="header">
+                <a href="DuyetDangKyHoc.aspx">
+                    <img src="../../Data/img/logo.PNG" height="60px" style="line-height: 70px" /></a>
+
+                <div>
+                    <a href="../TTCN.aspx"><asp:Label ID="lblh1" runat="server" Text="Chúc bạn ngày mới tốt lành!" CssClass="h1"></asp:Label></a> 
+                    <asp:Label ID="lblLoiChao" runat="server" Text="" CssClass="lblLoiChao"></asp:Label>
+                    <asp:Button ID="btnDangXuat" OnClick="btnDangXuat_Click" runat="server" Text="Đăng Xuất" />
+                </div>
+
+            </header>
+            <div class="sideMenu">
+                <div id="bg_btnChucNang" runat="server">
+                    <a href="DangNhap.aspx" class="btnChucNang btnDangNhap" id="btnDangNhap">ĐĂNG NHẬP</a>
+                    <%--<a href="DangKy.aspx" class="btnChucNang btnDangKy" id="btnDangKy">ĐĂNG KÝ</a>--%>
+                </div>
+                <div id="lsCategory" runat="server">
+                    <ul class="supMenu">
+                        <a href="/Admin/DuyetDangKyHoc.aspx">
+                            <li>Duyệt đăng ký học</li>
+                        </a>
+                        <a href="/Admin/DuyetKhoaHoc.aspx">
+                            <li>Duyệt khóa học</li>
+                        </a>
+                        <a href="/Admin/AddGiangVien.aspx">
+                            <li>Thêm giảng viên</li>
+                        </a>
+                         <a href="/Admin/TTCN.aspx">
+                            <li>TT Cá Nhân</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div id="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    <asp:Button ID="Button1" runat="server" Text="Button" />
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

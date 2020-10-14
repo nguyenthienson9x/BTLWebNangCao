@@ -1,0 +1,19 @@
+﻿#content{
+    display: flex;
+    justify-content:center;
+}
+
+#content table{
+    left: -15%;
+    margin-top: 3em;
+    position: relative;
+}
+
+#content td{
+   padding: 5px;
+}
+
+#content input{
+    padding: 5px;
+    width: 200px;    
+}

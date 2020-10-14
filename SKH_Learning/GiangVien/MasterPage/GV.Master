@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="GV.master.cs" Inherits="SKH_Learning.GiangVien.MasterPage.GV" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="../Style/MasterPage.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header class="header">
+                <a href="QuanLyKhoaHoc.aspx">
+                    <img src="../../Data/img/logo.PNG" height="60px" style="line-height: 70px" /></a>
+                <div>
+                    <a href="TTCN.aspx"><asp:Label ID="lblLoiChao" runat="server" Text="Label" CssClass="lblLoiChao"></asp:Label></a> 
+                    <asp:Button ID="btnDangXuat" OnClick="btnDangXuat_Click" runat="server" Text="Đăng Xuất" />
+                </div>
+            </header>
+            <div class="sideMenu" runat="server">
+                
+                <div id="bg_btnChucNang" runat="server">
+                    <a href="DangNhap.aspx" class="btnChucNang btnDangNhap" id="btnDangNhap">ĐĂNG NHẬP</a>
+                </div>
+                <div id="lsCategory" runat="server">
+                </div>
+            </div>
+            <div id="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

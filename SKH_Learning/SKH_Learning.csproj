@@ -1,0 +1,405 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0D884091-0C2D-46D7-ACE9-01FD4A2C3F5D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SKH_Learning</RootNamespace>
+    <AssemblyName>SKH_Learning</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\AddGiangVien.aspx" />
+    <Content Include="Admin\DangNhap.aspx" />
+    <Content Include="Admin\DuyetDangKyHoc.aspx" />
+    <Content Include="Admin\DuyetKhoaHoc.aspx" />
+    <Content Include="Admin\Style\DangNhapDangKy.css" />
+    <Content Include="Admin\Style\MasterPage.css" />
+    <Content Include="Admin\TTCN.aspx" />
+    <Content Include="Admin\ViewKhoaHoc.aspx" />
+    <Content Include="CategorySKH.aspx" />
+    <Content Include="DangKy.aspx" />
+    <Content Include="DangNhap.aspx" />
+    <Content Include="Data\DB\SKHLearning.mdf" />
+    <Content Include="Data\DB\SKHLearning_log.ldf">
+      <DependentUpon>SKHLearning.mdf</DependentUpon>
+    </Content>
+    <Content Include="Data\img\searchLogo.png" />
+    <Content Include="Data\md5.js" />
+    <Content Include="Data\Style\HocVien\KhoaHoc.css" />
+    <Content Include="Data\tinymce\changelog.txt" />
+    <Content Include="Data\tinymce\js\tinymce\jquery.tinymce.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\license.txt" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\advlist\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\anchor\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\autolink\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\autoresize\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\autosave\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\bbcode\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\charmap\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\codesample\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\code\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\colorpicker\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\contextmenu\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\directionality\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\emoticons\js\emojis.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\emoticons\js\emojis.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\emoticons\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\fullpage\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\fullscreen\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\help\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\hr\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\imagetools\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\image\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\importcss\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\insertdatetime\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\legacyoutput\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\link\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\lists\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\media\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\nonbreaking\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\noneditable\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\pagebreak\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\paste\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\preview\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\print\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\quickbars\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\save\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\searchreplace\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\spellchecker\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\tabfocus\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\table\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\template\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\textcolor\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\textpattern\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\toc\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\visualblocks\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\visualchars\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\plugins\wordcount\plugin.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\skins\content\default\content.css" />
+    <Content Include="Data\tinymce\js\tinymce\skins\content\default\content.min.css" />
+    <Content Include="Data\tinymce\js\tinymce\skins\content\document\content.css" />
+    <Content Include="Data\tinymce\js\tinymce\skins\content\document\content.min.css" />
+    <Content Include="Data\tinymce\js\tinymce\skins\content\writer\content.css" />
+    <Content Include="Data\tinymce\js\tinymce\skins\content\writer\content.min.css" />
+    <Content Include="Data\tinymce\js\tinymce\skins\ui\oxide-dark\content.inline.min.css" />
+    <Content Include="Data\tinymce\js\tinymce\skins\ui\oxide-dark\content.min.css" />
+    <Content Include="Data\tinymce\js\tinymce\skins\ui\oxide-dark\skin.min.css" />
+    <Content Include="Data\tinymce\js\tinymce\skins\ui\oxide\content.inline.min.css" />
+    <Content Include="Data\tinymce\js\tinymce\skins\ui\oxide\content.min.css" />
+    <Content Include="Data\tinymce\js\tinymce\skins\ui\oxide\content.mobile.min.css" />
+    <Content Include="Data\tinymce\js\tinymce\skins\ui\oxide\skin.min.css" />
+    <Content Include="Data\tinymce\js\tinymce\skins\ui\oxide\skin.mobile.min.css" />
+    <Content Include="Data\tinymce\js\tinymce\themes\mobile\theme.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\themes\silver\theme.min.js" />
+    <Content Include="Data\tinymce\js\tinymce\tinymce.min.js" />
+    <Content Include="Data\tinymce\LICENSE.TXT" />
+    <Content Include="GiangVien\DangNhap.aspx" />
+    <Content Include="GiangVien\QuanLyKhoaHoc.aspx" />
+    <Content Include="Data\Style\HocVien\DangNhapDangKy.css" />
+    <Content Include="GiangVien\Style\DangNhapDangKy.css" />
+    <Content Include="GiangVien\Style\MasterPage.css" />
+    <Content Include="GiangVien\TTCN.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Data\img\KhoaHoc\androidauto.jpg" />
+    <Content Include="Data\img\logo.PNG" />
+    <Content Include="index.aspx" />
+    <Content Include="GiangVien\KhoaHoc.aspx" />
+    <Content Include="Data\Style\HocVien\index.css" />
+    <Content Include="Data\Style\HocVien\ItemKhoaHoc.css" />
+    <Content Include="Data\Style\HocVien\MasterPage.css" />
+    <Content Include="KhoaHoc.aspx" />
+    <Content Include="Data\SKHLEarn.sql" />
+    <Content Include="SubCategorySKH.aspx" />
+    <Content Include="TimKiem.aspx" />
+    <Content Include="TTCN.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\AddGiangVien.aspx.cs">
+      <DependentUpon>AddGiangVien.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddGiangVien.aspx.designer.cs">
+      <DependentUpon>AddGiangVien.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DangNhap.aspx.cs">
+      <DependentUpon>DangNhap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\DangNhap.aspx.designer.cs">
+      <DependentUpon>DangNhap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DuyetDangKyHoc.aspx.cs">
+      <DependentUpon>DuyetDangKyHoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\DuyetDangKyHoc.aspx.designer.cs">
+      <DependentUpon>DuyetDangKyHoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DuyetKhoaHoc.aspx.cs">
+      <DependentUpon>DuyetKhoaHoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\DuyetKhoaHoc.aspx.designer.cs">
+      <DependentUpon>DuyetKhoaHoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\MasterPage\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\MasterPage\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TTCN.aspx.cs">
+      <DependentUpon>TTCN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TTCN.aspx.designer.cs">
+      <DependentUpon>TTCN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ViewKhoaHoc.aspx.cs">
+      <DependentUpon>ViewKhoaHoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ViewKhoaHoc.aspx.designer.cs">
+      <DependentUpon>ViewKhoaHoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CategorySKH.aspx.cs">
+      <DependentUpon>CategorySKH.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CategorySKH.aspx.designer.cs">
+      <DependentUpon>CategorySKH.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DangKy.aspx.cs">
+      <DependentUpon>DangKy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DangKy.aspx.designer.cs">
+      <DependentUpon>DangKy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DangNhap.aspx.cs">
+      <DependentUpon>DangNhap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DangNhap.aspx.designer.cs">
+      <DependentUpon>DangNhap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GiangVien\DangNhap.aspx.cs">
+      <DependentUpon>DangNhap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiangVien\DangNhap.aspx.designer.cs">
+      <DependentUpon>DangNhap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GiangVien\MasterPage\GV.Master.cs">
+      <DependentUpon>GV.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiangVien\MasterPage\GV.Master.designer.cs">
+      <DependentUpon>GV.Master</DependentUpon>
+    </Compile>
+    <Compile Include="GiangVien\QuanLyKhoaHoc.aspx.cs">
+      <DependentUpon>QuanLyKhoaHoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiangVien\QuanLyKhoaHoc.aspx.designer.cs">
+      <DependentUpon>QuanLyKhoaHoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GiangVien\TTCN.aspx.cs">
+      <DependentUpon>TTCN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiangVien\TTCN.aspx.designer.cs">
+      <DependentUpon>TTCN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GiangVien\KhoaHoc.aspx.cs">
+      <DependentUpon>KhoaHoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiangVien\KhoaHoc.aspx.designer.cs">
+      <DependentUpon>KhoaHoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KhoaHoc.aspx.cs">
+      <DependentUpon>KhoaHoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KhoaHoc.aspx.designer.cs">
+      <DependentUpon>KhoaHoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SubCategorySKH.aspx.cs">
+      <DependentUpon>SubCategorySKH.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SubCategorySKH.aspx.designer.cs">
+      <DependentUpon>SubCategorySKH.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TimKiem.aspx.cs">
+      <DependentUpon>TimKiem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TimKiem.aspx.designer.cs">
+      <DependentUpon>TimKiem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TTCN.aspx.cs">
+      <DependentUpon>TTCN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TTCN.aspx.designer.cs">
+      <DependentUpon>TTCN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User.Master.cs">
+      <DependentUpon>User.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User.Master.designer.cs">
+      <DependentUpon>User.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GiangVien\MasterPage\GV.Master" />
+    <Content Include="Data\tinymce\js\tinymce\langs\readme.md" />
+    <Content Include="Data\tinymce\js\tinymce\skins\ui\oxide\fonts\tinymce-mobile.woff" />
+    <Content Include="Admin\MasterPage\Admin.Master" />
+    <None Include="packages.config" />
+    <Content Include="User.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAO\DAO.csproj">
+      <Project>{c0cb07f4-b907-47a9-ad42-84c9e7cdc1df}</Project>
+      <Name>DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{028ec38c-e5ad-4892-b35b-342a149b1408}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Data\img\avatar\" />
+    <Folder Include="Data\video\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50139</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50139/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

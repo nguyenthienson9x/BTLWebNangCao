@@ -1,0 +1,20 @@
+﻿#content-ctn {
+    /*left: -15%;*/
+    display: flex;
+    justify-content: center;
+}
+
+    #content-ctn table {
+        margin-top: 3em;
+        left: -15%;
+        position: relative;
+    }
+
+    #content-ctn td {
+        padding: 5px;
+    }
+
+    #content-ctn input {
+        padding: 5px;
+        width: 200px;
+    }
